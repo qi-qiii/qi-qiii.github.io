@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: monospace;
+}
+
+nav{
+    background:rgb(255, 255, 255);
+    height: 70px;
+    position: fixed;
+}
+
+.angry{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+.navone{
+    display: flex;
+    align-items:center;
+}
+
+.sqlogo img{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.says{
+    margin-top: 5px;
+    margin-left: 13px;
+}
+
+.news{
+    background-color: #404E51;
+    padding:5px 9px;
+    color: white;
+    margin-right: 10px;
+}
+
+.news:hover{
+    background-color: #404e519a;
+}
+
+.info{
+    background-color: #404E51;
+    padding:5px 9px;
+    color: white;
+    margin-right: 10px;
+}
+
+.info:hover{
+    background-color: #404e519a;
+}
+
+
+.produ{
+    background-color: #404E51;
+    padding:5px 9px;
+    color: white;
+    margin-right: 10px;
+}
+
+.produ:hover{
+    background-color: #404e519a;
+}
+
+
+.reser{
+    background-color: #404E51;
+    padding:5px 9px;
+    color: white;
+    margin-right: 10px;
+}
+
+.reser:hover{
+    background-color: #404e519a;
+}
+
+
+.common{
+    background-color: #404E51;
+    padding:5px 9px;
+    color: white;
+    margin-right: 838px;
+}
+
+.common:hover{
+    background-color: #404e519a;
+}
+
+
+.connect{
+  margin-top: 10px;
+}
+
+.line img{
+    width: 30px;
+    height: 30px;
+    
+}
+
+.fb img{
+    width: 30px;
+    height: 30px;
+}
+
+.ig img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.all{
+   padding-top: 70px;
+}
+
+.back {
+    background-color: #404e519a;
+   
+    width: 100px;
+    height: 30px;
+    text-align:center;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-top: 6px;
+}
+
+.back a{
+    text-decoration: none; 
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.mangocake{
+    display: flex;
+    justify-content: center;
+}
+
+.mangocakephoto{
+    display: flex;
+    align-content: center;
+}
+
+.arrow img{
+    width: 50px;
+    height: 50px;
+    margin-right: 40px;
+    margin-left: -40px;
+    margin-top: 200px;
+}
+
+.photo img{
+    width: 450px;
+    height: 450px;
+}
+
+.next img{
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 200px;
+}
+
+.mangocaketext{
+    margin: 70px;
+    height: 400px;
+}
+
+.name{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.describe{
+    font-size: 14px;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+
+.element{
+    font-size: 14px;
+    padding-bottom: 50px;
+}
+
+.size{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+
+.six{
+    background-color: #404E51;
+    width: 80px;
+    color: white;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.eight{
+    background-color: #404E51;
+    width: 80px;
+    color: white;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.volume{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.minus img{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.plus img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.foot{
+    display: flex;
+    align-items: center;/*將內容上下至中*/
+    justify-content: center;
+
+    margin-top: 150px;
+    background-color: #404E51;
+    height: 100px;
+    
+    font-size: 14px;
+    color: white;
+}
